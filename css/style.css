@@ -349,3 +349,148 @@
 .copyright a:hover {
     color: var(--light);
 }
+
+/* Fun Facts */
+
+.fun-facts {
+    margin-top: 100px;
+    background-image: url(../img/fun-facts-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    color: #fff;
+}
+
+.fun-facts span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.fun-facts h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.fun-facts em {
+    font-style: normal;
+    color: #a4c639;
+}
+
+.fun-facts p {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.fun-facts .left-content {
+    margin-right: 45px;
+}
+
+.count-area-content {
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.1);
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+    height: 200px;
+}
+
+.count-digit {
+    margin: 5px 0px;
+    color: #ebae00;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.count-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.fun-facts h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #ebae00;
+}
+
+
+
+
+/* Responsive Style */
+
+@media (max-width: 768px) {
+    .sub-header {
+        display: none;
+    }
+    .Modern-Slider .item h6 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .Modern-Slider .item h4 {
+        margin-bottom: 25px;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+    .Modern-Slider .item p {
+        max-width: 570px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .Modern-Slider .NextArrow {
+        right: 5px;
+    }
+    .Modern-Slider .PrevArrow {
+        left: 5px;
+    }
+    .request-form {
+        text-align: center;
+    }
+    .request-form a.border-button {
+        float: none;
+        margin-top: 30px;
+    }
+    .services .service-item {
+        margin-bottom: 30px;
+    }
+    .fun-facts .left-content {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .more-info .right-content {
+        padding: 30px;
+    }
+    footer {
+        padding: 80px 0px 20px 0px;
+    }
+    footer .footer-item {
+        border-bottom: 1px solid #343434;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    footer .last-item {
+        border-bottom: none;
+    }
+    .about-info .right-content {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .team .team-item {
+        margin-bottom: 30px;
+    }
+    .tabs-content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .contact-item {
+        margin-bottom: 30px;
+    }
+}
